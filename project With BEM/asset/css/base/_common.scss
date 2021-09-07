@@ -1,0 +1,45 @@
+@import 'color';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 1000px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: $black;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+.box_tile {
+    text-transform: capitalize;
+    font-size: 25px;
+    margin: 20px 0;
+  }
+.btn{
+    display: inline-block;
+    background-color: tomato;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #fff;
+    transition: .3s;
+    &:hover{
+        background-color:#ddd;
+        color: black;
+    }
+    &--primary{
+        background-color: blueviolet;
+    }
+    &--green{
+        background-color: green;
+    }
+}

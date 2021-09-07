@@ -1,0 +1,33 @@
+.service{
+    &__title {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 35px;
+        margin-bottom: 20px;
+      }
+      &__main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      &__single {
+        flex-basis: 32%;
+        padding: 20px;
+        background-color: teal;
+        color: #fff;
+      }
+      &__heading {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 25px;
+        margin-bottom: 20px;
+      }
+      &__desc {
+        line-height: 22px;
+        margin: 10px 0;
+      }
+      &__link { 
+        margin-top: 20px;  
+    }
+
+}

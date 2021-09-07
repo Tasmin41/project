@@ -1,0 +1,40 @@
+
+.about {
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__content {
+        flex-basis: 65%;
+      }
+    &__menu {
+        flex-basis: 25%;
+      }
+    &__desc {
+        line-height: 22px;
+        padding: 10px 0;
+        color: #333;
+      }
+    &__menu-item {
+        background-image: url("../asset/img/arrow.png");
+        background-repeat: no-repeat;
+        background-position: 0px -3px;
+        padding-left: 30px;
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+        border-bottom: 1px dashed #ddd;
+        &:last-child{
+            border-bottom: 0;
+        }
+      }
+      &__menu-link{
+          transition: .3s;
+          &:hover{
+              color: tomato;
+          }
+      }
+  }
+
+  
+  
+ 
